@@ -1,0 +1,8 @@
+flask
+flask-cors
+tensorflow-cpu
+librosa
+joblib
+numpy
+soundfile
+gunicorn
