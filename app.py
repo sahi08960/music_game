@@ -62,7 +62,7 @@ def predict_genre():
         finally:
             os.remove(file_path)
 
-# --- Root Route (Optional Welcome Message) ---
+# --- Root Route (Welcome Message) ---
 @app.route('/')
 def home():
     return "✅ Music Genre API is running! Use POST /predict to classify audio."
